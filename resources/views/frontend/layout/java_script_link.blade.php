@@ -25,14 +25,22 @@
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/676a96fb49e2fd8dfefcfde0/1ifs5rhq6';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
+        var s1 = document.createElement("script"),s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/676a96fb49e2fd8dfefcfde0/1ifs5rhq6';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
     })();
-    </script>
+    
+    Tawk_API.onLoad = function() {
+        var tawkIframe = document.querySelector("iframe[title='chat widget']");
+        if (tawkIframe) {
+            tawkIframe.style.bottom = "8rem"; // এখানে 50px পরিবর্তন করুন আপনার চাহিদা অনুযায়ী
+        }
+    };
+</script>
+
 <!--End of Tawk.to Script-->
