@@ -2,7 +2,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- SEO Meta Tags -->
+    {{-- Google serch console link  --}}
+    <meta name="google-site-verification" content="rKC569O9r6_c8CYbGQjc0vkNoq_oBAf3CjzSz8p4tVA" />
+    <!-- SEO Meta Tags -->
     <meta content="madrasah, Islamic school, Dhaka, Dhaka madrasah, Madrasah Hedâyatul Ummah, Islamic education" name="keywords">
     <meta name="description" content="মাদ্রাসা হেদায়াতুল উম্মাহ ঢাকা - কুরআন, হিফজ ও ইসলামী শিক্ষার আদর্শ প্রতিষ্ঠান, যেখানে সুন্নাহর আলোকে মানসম্পন্ন শিক্ষা প্রদান করা হয়।">
 
@@ -23,8 +25,7 @@
 <!-- Optional Additional Tags -->
     <meta property="og:site_name" content="Madrasah Hedâyatul Ummah Dhaka">
     <meta property="og:locale" content="bn_BD">
-    {{-- Google serch console link  --}}
-    <meta name="google-site-verification" content="rKC569O9r6_c8CYbGQjc0vkNoq_oBAf3CjzSz8p4tVA" />
+
     <!-- Favicon -->
     <link href="{{ url('frontend/img/favicon.ico') }}" rel="icon">
     <link href="{{ asset('frontend/img/madrasah.png') }}" rel="apple-touch-icon">
