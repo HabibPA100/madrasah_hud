@@ -2,8 +2,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {{-- Google serch console link  --}}
-    <meta name="google-site-verification" content="rKC569O9r6_c8CYbGQjc0vkNoq_oBAf3CjzSz8p4tVA" />
+    
+    <!-- Bangla Font Tags -->
+    <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
     <!-- SEO Meta Tags -->
     <meta content="madrasah, Islamic school, Dhaka, Dhaka madrasah, Madrasah Hedâyatul Ummah, Islamic education" name="keywords">
     <meta name="description" content="মাদ্রাসা হেদায়াতুল উম্মাহ ঢাকা - কুরআন, হিফজ ও ইসলামী শিক্ষার আদর্শ প্রতিষ্ঠান, যেখানে সুন্নাহর আলোকে মানসম্পন্ন শিক্ষা প্রদান করা হয়।">
@@ -26,9 +27,12 @@
     <meta property="og:site_name" content="Madrasah Hedâyatul Ummah Dhaka">
     <meta property="og:locale" content="bn_BD">
 
-    <!-- Favicon -->
-    <link href="{{ url('frontend/img/favicon.ico') }}" rel="icon">
-    <link href="{{ asset('frontend/img/madrasah.png') }}" rel="apple-touch-icon">
+    <link rel="icon" type="image/png" href="{{ asset('/frontend/img/favicon/favicon-96x96.png') }}" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{ asset('/frontend/img/favicon/favicon.svg') }}" />
+    <link rel="shortcut icon" href="{{ asset('/frontend/img/favicon/favicon.ico') }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/frontend/img/favicon/apple-touch-icon.png') }}" />
+    <meta name="apple-mobile-web-app-title" content="MHUD" />
+    <link rel="manifest" href="{{ asset('/frontend/img/favicon/site.webmanifest') }}" />
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
 
@@ -40,4 +44,5 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css')}}"/>
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/resultSheet.css') }}">
-  
+{{-- Google serch console link  --}}
+<meta name="google-site-verification" content="rKC569O9r6_c8CYbGQjc0vkNoq_oBAf3CjzSz8p4tVA" />

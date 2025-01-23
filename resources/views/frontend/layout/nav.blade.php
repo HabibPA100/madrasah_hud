@@ -1,7 +1,7 @@
  <!-- Navbar Start -->
  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
     <a href="{{ url('/') }}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-        <h2 class="m-0 text-danger"><i class="fa fa-building-columns me-3 text-success"></i><h1 class="humdAnimation">M H U D</h1></h2>
+        <h2 class="m-0 text-danger"><i class="fa fa-building-columns me-3 text-success"></i><span class="humdAnimation h1">M H U D</span></h2>
     </a>
     <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>

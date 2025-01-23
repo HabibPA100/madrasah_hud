@@ -45,8 +45,8 @@
                 <p>Welcome to our institution.</p>
                 <p class="text-center"><a class="link text-light" href="{{ url('/privacy') }}">Privacy Policy</a></p>
                 <p class="text-center"><a class="link text-light" href="{{ url('/terms') }}">Tarms of Condition</a></p>
-                <div class="position-relative mx-auto" style="max-width: 400px;"><a class="link" href="{{ route('register') }}">
-                    <button type="button" class="btn btn-outline-light py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button></a>
+                <div class="position-relative mx-auto" style="max-width: 400px;"><a class="link btn btn-outline-light py-2 position-absolute top-0 end-0 mt-2 me-2" href="{{ route('register') }}">
+                   SignUp</a>
                 </div>
             </div>
         </div>

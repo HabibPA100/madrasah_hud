@@ -73,7 +73,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/foysal.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2">হাফেজ মুহাম্মদ রাহাতুল ইসলাম ফয়সাল</h2> </figcaption>     
                 </figure>
@@ -94,7 +94,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/joshim.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2">হাফেজ মুহাম্মদ জসিম উদ্দিন</h2> </figcaption>     
                 </figure>
@@ -115,7 +115,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/mohsin_hosen.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2">হাফেজ মুহাম্মদ মহসিন হোসেন</h2> </figcaption>     
                 </figure>
@@ -156,7 +156,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/mahmudul_hasan.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2"> হাফেজ মুহাম্মদ মাহমুদুল হাসান</h2> </figcaption>     
                 </figure>
@@ -176,11 +176,11 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/naim.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2"> হাফেজ মুহাম্মদ নাঈমুর রহমান </h2> </figcaption>     
                 </figure>
-            </div>
+            </div> 
             <div class="text-center">
                 <p class="text-gray-900 text-left"><strong>পিতা:</strong> হা:মাওঃ নাজমুল হাসান</p>
                 <p class="text-gray-900 text-left"><strong>গ্রাম:</strong> কৈকরই, পোঃ নবাবপুর</p>
@@ -197,7 +197,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/labib.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2"> হাফেজ মুহাম্মদ মুছলেহ উদ্দিন (লাবীব) </h2> </figcaption>     
                 </figure>
@@ -218,9 +218,9 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/abdullah_almamun.jpg') }}" alt="Profile Image">
                     </div>
-                    <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2"> হাফেজ মুহাম্মাদ আঃ আল-মামুন </h2> </figcaption>     
+                    <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2"> হাফেজ মুহাম্মাদ আব্দুল্লাহ আল-মামুন </h2> </figcaption>     
                 </figure>
             </div>
             <div class="text-center">
@@ -258,7 +258,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/shakil.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2">হাফেজ মুহাম্মদ সাকিল হোসেন</h2> </figcaption>     
                 </figure>
@@ -278,7 +278,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/al_amin_hosen.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2"> হাফেজ মুহাম্মদ আল আমীন হোসাইন</h2> </figcaption>     
                 </figure>
@@ -297,7 +297,7 @@
             <div class="card text-center">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 rounded-full border-2 border-gray-300" src="{{ asset('frontend/img/hafez_students/tanvir.jpg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush"> <h2 class="text-xl font-bold text-gray-800 mb-2">হাফেজ মুহাম্মাদ তানভীর হোসেন</h2> </figcaption>     
                 </figure>

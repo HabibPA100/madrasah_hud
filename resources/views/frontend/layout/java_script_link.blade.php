@@ -24,7 +24,7 @@
 
 
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function(){
         var s1 = document.createElement("script"),s0 = document.getElementsByTagName("script")[0];
@@ -40,7 +40,7 @@
         if (tawkIframe) {
             tawkIframe.style.bottom = "8rem"; // এখানে 50px পরিবর্তন করুন আপনার চাহিদা অনুযায়ী
         }
-    };
-</script>
+    }; 
+</script> --}}
 
 <!--End of Tawk.to Script-->

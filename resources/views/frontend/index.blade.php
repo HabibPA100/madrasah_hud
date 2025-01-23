@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     @include('frontend.layout.meta_tag')
     <title>Madrasah Hedayatul Ummah Dhaka</title>
 </head>
-<body>
+
+<body style="font-family: 'Kalpurush', sans-serif;">
+
 <header>
  @include('frontend.layout.nav')
 </header>
@@ -27,28 +29,29 @@
              </span>
            </a>
      </div>
-     <div class="container p-2">
-         <marquee behavior="" direction="">
-             <h4 style="font-family: SolaimanLipi, Kalpurush; color:rgb(255, 0, 43)">
-                 সম্মানিত অভিভাবকবৃন্দ; আসছে আগামী নতুন বছর ২০২৫
-                 সাল উপলক্ষে পুরাতন ছাত্র-ছাত্রীদের অগ্রধিকার হিসেবে গত
-                 বছরের ন্যায় নতুন বছরের জন্য ডিসেম্বর মাসের ১ তারিখ থেকে
-                 ২০ তারিখ পর্যন্তর্য যারা ভর্তি করাতে পারবেন তাদের জন্য বিশেষ
-                 ছাড় সুযোগ সুবিধা দিয়ে ভর্তি নেওয়া হবে ২০ তারিখের পর এই
-                 সুযোগ বহাল থাকিবে না। প্রতিষ্ঠানের নিয়ম অনুসারেই ভর্তি
-                 হতে হবে 
-                 <strong style="color: rgb(17, 0, 255)"> প্লে জামাত ৫০০ টাকা নার্সারি জামাত ১০০০ টাকা
-                 প্রথম জামাত,১২০০/- টাকা
-                 দ্বিতীয় জামাত,১২০০/ টাকা
-                 তৃতীয় জামাত, ১২০০/- টাকা
-                 নাজেরা বিভাগ এবং
-                 হেফজ বিভাগ ২০০০/- টাকা 
-             </strong>
-              ডিসেম্বর মাসের ১ তারিখ থেকে
-                 ২০ তারিখ পর্যন্তর্য এই নিয়ম বহাল থাকবে। ইনশাআল্লাহ
-             </h4>
-         </marquee>
-     </div>
+     <div class="container p-2 overflow-hidden">
+        <div class="scrolling-text py-2">
+            <h4 style="font-family: SolaimanLipi, Kalpurush; color:rgb(255, 0, 43)">
+                সম্মানিত অভিভাবকবৃন্দ; আসছে আগামী নতুন বছর ২০২৫
+                সাল উপলক্ষে পুরাতন ছাত্র-ছাত্রীদের অগ্রধিকার হিসেবে গত
+                বছরের ন্যায় নতুন বছরের জন্য ডিসেম্বর মাসের ১ তারিখ থেকে
+                ২০ তারিখ পর্যন্ত যারা ভর্তি করাতে পারবেন তাদের জন্য বিশেষ
+                ছাড় সুযোগ সুবিধা দিয়ে ভর্তি নেওয়া হবে ২০ তারিখের পর এই
+                সুযোগ বহাল থাকিবে না। প্রতিষ্ঠানের নিয়ম অনুসারেই ভর্তি
+                হতে হবে 
+                <strong style="color: rgb(17, 0, 255)"> 
+                    প্লে জামাত ৫০০ টাকা, নার্সারি জামাত ১০০০ টাকা,
+                    প্রথম জামাত,১২০০/- টাকা,
+                    দ্বিতীয় জামাত,১২০০/ টাকা,
+                    তৃতীয় জামাত, ১২০০/- টাকা,
+                    নাজেরা বিভাগ এবং
+                    হেফজ বিভাগ ২০০০/- টাকা
+                </strong> 
+                ডিসেম্বর মাসের ১ তারিখ থেকে
+                ২০ তারিখ পর্যন্ত এই নিয়ম বহাল থাকবে। ইনশাআল্লাহ
+            </h4>
+        </div>
+    </div>
  </section>  
  {{-- Admission Alan for Decembore  --}}
  <section id="admissionInfo">
@@ -394,36 +397,59 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
+                            <!-- Icon -->
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                        
+                            <!-- Heading -->
                             <h4 class="mb-3">ইন্টারনেট কী?</h4>
-                            <p class="text-left">ইন্টারনেট হলো একটি বৈশ্বিক নেটওয়ার্ক যা অসংখ্য কম্পিউটার ও ডিভাইসকে একে অপরের সঙ্গে সংযুক্ত করে। এটি তথ্য আদান-প্রদানের একটি মাধ্যম, যেখানে ওয়েবসাইট, ইমেইল, সোশ্যাল মিডিয়া এবং অন্যান্য পরিষেবাগুলো চালানো হয়।
-                                <p>
-                                    <p class="d-inline-flex gap-1"> 
-                                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                          Read More 
-                                        </button>
-                                      </p>
-                                      <div class="collapse" id="collapseExample">
-                                        <div class="card card-body">
-                                            <strong>ইন্টারনেট কীভাবে কাজ করে?</strong>
-                                            ইন্টারনেট কাজ করে বিভিন্ন প্রযুক্তি ও প্রোটোকলের সমন্বয়ে। নিচে সহজভাবে এর কার্যপ্রক্রিয়া বর্ণনা করা হলো:
-                                            <strong>নেটওয়ার্কের সংযোগ: </strong>
+                        
+                            <!-- Description -->
+                            <p class="text-left">
+                                ইন্টারনেট হলো একটি বৈশ্বিক নেটওয়ার্ক যা অসংখ্য কম্পিউটার ও ডিভাইসকে একে অপরের সঙ্গে সংযুক্ত করে। এটি তথ্য আদান-প্রদানের একটি মাধ্যম, যেখানে ওয়েবসাইট, ইমেইল, সোশ্যাল মিডিয়া এবং অন্যান্য পরিষেবাগুলো চালানো হয়।
+                            </p>
+                        
+                            <!-- Read More Button -->
+                            <div class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    Read More
+                                </button>
+                            </div>
+                        
+                            <!-- Collapsible Content -->
+                            <div class="collapse" id="collapseExample">
+                                <div class="card card-body text-left">
+                                    <strong>ইন্টারনেট কীভাবে কাজ করে?</strong>
+                                    <p>ইন্টারনেট কাজ করে বিভিন্ন প্রযুক্তি ও প্রোটোকলের সমন্বয়ে। নিচে সহজভাবে এর কার্যপ্রক্রিয়া বর্ণনা করা হলো:</p>
+                                    <ul class="text-left">
+                                        <li class="text-left">
+                                            <strong>নেটওয়ার্কের সংযোগ:</strong>
                                             বিভিন্ন কম্পিউটার, সার্ভার এবং রাউটার একে অপরের সঙ্গে ক্যাবল (যেমন ফাইবার অপটিক), স্যাটেলাইট বা ওয়্যারলেস প্রযুক্তির মাধ্যমে সংযুক্ত থাকে।
+                                        </li>
+                                        <li class="text-left">
                                             <strong>আইপি (IP) ঠিকানা:</strong>
                                             প্রতিটি ডিভাইসকে ইন্টারনেটে সনাক্ত করার জন্য একটি ইউনিক আইপি ঠিকানা (IP Address) দেওয়া হয়। এটি ঠিক একইভাবে কাজ করে যেভাবে একটি বাড়ির ঠিকানা চিঠি পাওয়ার জন্য প্রয়োজন হয়।
-                                             <strong>প্রোটোকল (HTTP/HTTPS):</strong>
+                                        </li>
+                                        <li class="text-left">
+                                            <strong>প্রোটোকল (HTTP/HTTPS):</strong>
                                             যখন আপনি কোনো ওয়েবসাইট খুলতে চান, তখন HTTP বা HTTPS নামের প্রোটোকল ব্যবহার করা হয়, যা ঠিক করে কীভাবে ডেটা আদান-প্রদান হবে।
-                                             <strong>ডোমেইন নেম সিস্টেম (DNS):</strong>
+                                        </li>
+                                        <li class="text-left">
+                                            <strong>ডোমেইন নেম সিস্টেম (DNS):</strong>
                                             আপনি যখন কোনো ওয়েবসাইটের ঠিকানা (যেমন, www.google.com) লিখেন, তখন DNS এটি আইপি ঠিকানায় রূপান্তর করে, যাতে আপনার ব্রাউজার সেই সার্ভারে সংযোগ স্থাপন করতে পারে।
-                                             <strong>ডেটা ট্রান্সফার ও প্যাকেট সুইচিং:</strong>
+                                        </li>
+                                        <li class="text-left">
+                                            <strong>ডেটা ট্রান্সফার ও প্যাকেট সুইচিং:</strong>
                                             ডেটা ছোট ছোট প্যাকেটে বিভক্ত হয়ে নেটওয়ার্কের মাধ্যমে গন্তব্যে পৌঁছে। প্যাকেটগুলো বিভিন্ন রুট দিয়ে যেতে পারে এবং শেষে একত্রিত হয়ে পূর্ণ ডেটা তৈরি করে।
-                                             <strong>রাউটার এবং সার্ভার:</strong>
-                                            রাউটার বিভিন্ন নেটওয়ার্কের মধ্যে ডেটা পাঠায়, আর সার্ভারগুলো তথ্য সংরক্ষণ করে এবং ক্লায়েন্টদের (যেমন আপনার ফোন বা কম্পিউটার) সেবাদান করে। 
-                                        </div>
-                                      </div>
-                            </p>
-                        </p>
+                                        </li>
+                                        <li class="text-left">
+                                            <strong>রাউটার এবং সার্ভার:</strong>
+                                            রাউটার বিভিন্ন নেটওয়ার্কের মধ্যে ডেটা পাঠায়, আর সার্ভারগুলো তথ্য সংরক্ষণ করে এবং ক্লায়েন্টদের (যেমন আপনার ফোন বা কম্পিউটার) সেবাদান করে।
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
