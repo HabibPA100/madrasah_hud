@@ -27,12 +27,12 @@
     <meta property="og:site_name" content="Madrasah Hedâyatul Ummah Dhaka">
     <meta property="og:locale" content="bn_BD">
 
-    <link rel="icon" type="image/png" href="{{ asset('/frontend/img/favicon/favicon-96x96.png') }}" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="{{ asset('/frontend/img/favicon/favicon.svg') }}" />
-    <link rel="shortcut icon" href="{{ asset('/frontend/img/favicon/favicon.ico') }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/frontend/img/favicon/apple-touch-icon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('frontend/img/favicon/favicon-96x96.png') }}" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{ asset('frontend/img/favicon/favicon.svg') }}" />
+    <link rel="shortcut icon" href="{{ asset('frontend/img/favicon/favicon.ico') }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('frontend/img/favicon/apple-touch-icon.png') }}" />
     <meta name="apple-mobile-web-app-title" content="MHUD" />
-    <link rel="manifest" href="{{ asset('/frontend/img/favicon/site.webmanifest') }}" />
+    <link rel="manifest" href="{{ asset('frontend/img/favicon/site.webmanifest') }}" />
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
 
