@@ -5,7 +5,7 @@ use App\Models\Admission_Forms;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class AdmissionController extends Controller
+class admissionController extends Controller
 {
     public function index()
     {

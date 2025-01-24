@@ -5,8 +5,8 @@
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    animation: scroll-text 70s linear infinite;
-    -webkit-animation: scroll-text 70s linear infinite;
+    animation: scroll-text 50s linear infinite;
+    -webkit-animation: scroll-text 50s linear infinite;
 }
 
 @keyframes scroll-text {
