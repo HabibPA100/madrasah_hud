@@ -1,4 +1,3 @@
-<section>
     <div class="container d-flex d-lg-none w-100%">
         <div style="background-color: #047939;    margin-bottom: -10px;" class="d-flex justify-content-around small footer-section fixed-bottom ">
             <div class="col-2 mt-1">
@@ -45,5 +44,4 @@
                    </div>
            </div>
        </div>
-    </section>
 {{-- smale device footer nav bar end here --}}
