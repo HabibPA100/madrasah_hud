@@ -15,7 +15,7 @@
         {{-- welcome massage to visiter  --}}
      <div class="container my-2" id="welcome">
          <div class="card p-3 welcome welcomeAnimation">
-             <h3 class="text-center text-success"> {{ __("আপনার উপর দয়াময়ের শান্তি বর্ষিত হোক") }} </h3> 
+             <h3 class="text-center text-success"> আপনার উপর দয়াময়ের শান্তি বর্ষিত হোক </h3> 
              <h2 class="text-center text-danger "> {{ __("আমাদের ওয়েবসাইটে আপনাকে স্বাগতম") }} </h2>
          </div>
      </div>
