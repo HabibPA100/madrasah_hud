@@ -27,22 +27,22 @@
     <meta property="og:site_name" content="Madrasah Hedâyatul Ummah Dhaka">
     <meta property="og:locale" content="bn_BD">
 
-    <link rel="icon" type="image/png" href="{{ asset('frontend/img/favicon/favicon-96x96.png') }}" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="{{ asset('frontend/img/favicon/favicon.svg') }}" />
-    <link rel="shortcut icon" href="{{ asset('frontend/img/favicon/favicon.ico') }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('frontend/img/favicon/apple-touch-icon.png') }}" />
-    <meta name="apple-mobile-web-app-title" content="MHUD" />
-    <link rel="manifest" href="{{ asset('frontend/img/favicon/site.webmanifest') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('frontend/img/favicon/favicon-96x96.png') }}" sizes="96x96" >
+    <link rel="icon" type="image/svg+xml" href="{{ asset('frontend/img/favicon/favicon.svg') }}" >
+    <link rel="shortcut icon" href="{{ asset('frontend/img/favicon/favicon.ico') }}" >
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('frontend/img/favicon/apple-touch-icon.png') }}" >
+    <meta name="apple-mobile-web-app-title" content="MHUD" >
+    <link rel="manifest" href="{{ asset('frontend/img/favicon/site.webmanifest') }}" >
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css')}}"/>
+    <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/resultSheet.css') }}">
 {{-- Google serch console link  --}}
-<meta name="google-site-verification" content="rKC569O9r6_c8CYbGQjc0vkNoq_oBAf3CjzSz8p4tVA" />
+<meta name="google-site-verification" content="rKC569O9r6_c8CYbGQjc0vkNoq_oBAf3CjzSz8p4tVA" >

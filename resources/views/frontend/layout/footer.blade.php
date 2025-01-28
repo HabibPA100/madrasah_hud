@@ -54,8 +54,8 @@
     <div class="container">
         <div class="copyright">
             <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> Copyrights 
-                    &copy; Madrasah Hedayatul Ummah Dhaka.<br/>
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0"> Copyrights
+                    &copy; Madrasah Hedayatul Ummah Dhaka. <br> 
 
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                     Designed By <a class="border-bottom" href="{{ url('https://wa.me/+8801885451771') }}">Habib P--A</a><br><br>
