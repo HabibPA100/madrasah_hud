@@ -7,7 +7,7 @@
     <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
     <!-- SEO Meta Tags -->
     <meta content="madrasah, Islamic school, Dhaka, Dhaka madrasah, Madrasah Hedâyatul Ummah, Islamic education" name="keywords">
-    <meta name="description" content="মাদ্রাসা হেদায়াতুল উম্মাহ ঢাকা - কুরআন, হিফজ ও ইসলামী শিক্ষার আদর্শ প্রতিষ্ঠান, যেখানে সুন্নাহর আলোকে মানসম্পন্ন শিক্ষা প্রদান করা হয়।">
+    <meta name="description" content="{{ __('মাদ্রাসা হেদায়াতুল উম্মাহ ঢাকা - কুরআন, হিফজ ও ইসলামী শিক্ষার আদর্শ প্রতিষ্ঠান, যেখানে সুন্নাহর আলোকে মানসম্পন্ন শিক্ষা প্রদান করা হয়।') }}">
 
     <meta name="author" content="Madrasah Hedayatul Ummah Dhaka">
     <meta name="robots" content="index, follow">
