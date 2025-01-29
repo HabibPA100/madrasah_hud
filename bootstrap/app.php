@@ -6,7 +6,7 @@ use Illuminate\Foundation\Configuration\Middleware;
 use App\Http\Middleware\RoleMiddleware;
 use App\Http\Middleware\BlockRestrictedAccess;
 
-return Application::configure(basePath: dirname(__DIR__))
+return Application::configure(dirname(__DIR__))
 
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
