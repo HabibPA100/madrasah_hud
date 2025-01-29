@@ -30,8 +30,8 @@
            </a>
      </div>
      <div class="container p-2 overflow-hidden">
-        <div class="scrolling-text py-2">
-            <h4 style="font-family: SolaimanLipi, Kalpurush; color:rgb(255, 0, 43)">
+        <div>
+            <h4 class="running_text_forever p-2" style="font-family: SolaimanLipi, Kalpurush; color:rgb(255, 0, 43)">
                 সম্মানিত অভিভাবকবৃন্দ; আসছে আগামী নতুন বছর ২০২৫
                 সাল উপলক্ষে পুরাতন ছাত্র-ছাত্রীদের অগ্রধিকার হিসেবে গত
                 বছরের ন্যায় নতুন বছরের জন্য ডিসেম্বর মাসের ১ তারিখ থেকে
