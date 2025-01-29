@@ -40,6 +40,119 @@
 </section>
 <hr>
 <div class="container my-2">
+<!-- Total all in one -->
+<section id="passing_year2022">
+    <h2 class="text-center mb-4" style="color: red">১৩ থেকে ২৪ পর্যন্ত বাৎসরিক আয়-ব্যয়ের মোট হিসাব</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped text-center text-danger">
+        <thead class="table-info">
+            <tr>
+                <th colspan="12" class="table-success"> ২০১৩ - ২০২৪ সাল এর হিসাব</th>
+            </tr>
+          <tr>
+            <th> আয়ের উৎস </th>
+            <th>আয় (৳)</th>
+            <th> ব্যয়ের উৎস </th>
+            <th>ব্যয় (৳)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ভর্তি বাবদ</td>
+            <td>৮১৩,৯৬৫</td>
+            <td>প্রাতিষ্ঠানিক ভাড়া বাবদ</td> 
+            <td> ২৮,৭৭,৬১৭ </td>
+          </tr>
+          <tr>
+            <td>আবাসিক বোর্ডিং </td>
+            <td>২৬,০৭,৯৬৪</td>
+            <td>শিক্ষক বেতন</td>
+            <td> ৫১,১৫,৬৪৩ </td>
+          </tr>
+          <tr>
+            <td>অনাবাসিক বেতন</td>
+            <td> ৪০,৩৫,১৫৫ </td>
+            <td>বোর্ডিং  বাবদ</td>
+            <td> ৩১,৩১,৬২৬ </td>
+          </tr>
+          <tr>
+            <td>অনুদান বাবদ</td>
+            <td>১৬,১৬,১০৪</td>
+            <td>অন্যান্য</td>
+            <td>৫,৩১,৩৫২</td>
+          </tr>
+        </tbody>
+        <tfoot class="table-secondary">
+          <tr>
+            <td><strong>মোট আয়</strong></td>
+            <td><strong>৯০,৭৩,১৮৮</strong></td>
+            <td><strong>মোট ব্যয়</strong></td> 
+            <td><strong> ১১,৬৫৬,২৩৮ </strong></td>
+          </tr>
+          <tr>
+            <td colspan="12">
+              <h3 class="text-center" style="color: rgb(247, 0, 255)">এই পর্যন্ত মাদ্রাসার মোট ঋণ <strong style="color: red">
+                = ২৫,৮৩,০৫০ </strong></h3>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+</section>
+<!-- 2024 -->
+<section id="passing_year2022">
+    <h2 class="text-center mb-4">বাৎসরিক আয়-ব্যয়ের হিসাব</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped text-center">
+        <thead class="table-info">
+            <tr>
+                <th colspan="12" class="table-warning"> ২০২৪ সাল এর হিসাব</th>
+            </tr>
+          <tr>
+            <th> আয়ের উৎস </th>
+            <th>আয় (৳)</th>
+            <th> ব্যয়ের উৎস </th>
+            <th>ব্যয় (৳)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ভর্তি বাবদ</td>
+            <td>৬৮,৩৫০</td>
+            <td>প্রাতিষ্ঠানিক ভাড়া বাবদ</td> 
+            <td> ৩,৯৮,২২২ </td>
+          </tr>
+          <tr>
+            <td>আবাসিক বোর্ডিং </td>
+            <td>১,৪৬,৩০০</td>
+            <td>শিক্ষক বেতন</td>
+            <td> ৭,১৬,৯৬৮ </td>
+          </tr>
+          <tr>
+            <td>অনাবাসিক বেতন</td>
+            <td>৭,৭০,৪৫০</td>
+            <td>বোর্ডিং  বাবদ</td>
+            <td> ৫,৬৮,৩০৫ </td>
+          </tr>
+          <tr>
+            <td>অনুদান বাবদ</td>
+            <td>২,৬৭,৯০০</td>
+            <td>০০০</td>
+            <td>০০০</td>
+          </tr>
+        </tbody>
+        <tfoot class="table-secondary">
+          <tr>
+            <td><strong>মোট আয়</strong></td>
+            <td><strong>১২,৫৩,০০০</strong></td>
+            <td><strong>মোট ব্যয়</strong></td> 
+            <td><strong> ১৬,৮৩,৪৯৫ </strong></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+</section>
+<!-- 2023 -->
 <section id="passing_year2022">
     <h2 class="text-center mb-4">বাৎসরিক আয়-ব্যয়ের হিসাব</h2>
     <div class="table-responsive">
@@ -92,6 +205,7 @@
       </table>
     </div>
 </section>
+<!-- 2022 -->
 <section id="passing_year2023">
     <h2 class="text-center mb-4">বাৎসরিক আয়-ব্যয়ের হিসাব</h2>
     <div class="table-responsive">
