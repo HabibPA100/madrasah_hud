@@ -42,7 +42,6 @@
      </div>
      {{-- section about admission information start here --}}
  {{-- Admission Alan for Decembore  --}}
- <section id="goToPost">
      <div class="container mt-4">
          <a href="{{ route('show.post') }}" class="btn btn-warning position-relative">
              New Updates
@@ -50,7 +49,6 @@
              </span>
            </a>
      </div>
- </section>
  
  {{-- Admission Alan for Decembore  --}}
  <section id="admissionInfo">
