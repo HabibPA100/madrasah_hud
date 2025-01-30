@@ -12,7 +12,7 @@
 </header>
 <main>
 <!-- Marque-->  
- <marquee class="GeneratedMarquee" direction="left" scrollamount="15" behavior="scroll">
+ {{-- <marquee class="GeneratedMarquee" direction="left" scrollamount="15" behavior="scroll">
     সম্মানিত অভিভাবকবৃন্দ; আসছে আগামী নতুন বছর ২০২৫
     সাল উপলক্ষে পুরাতন ছাত্র-ছাত্রীদের অগ্রধিকার হিসেবে গত
     বছরের ন্যায় নতুন বছরের জন্য ডিসেম্বর মাসের ১ তারিখ থেকে
@@ -30,7 +30,7 @@
     </strong> 
     ডিসেম্বর মাসের ১ তারিখ থেকে
     ২০ তারিখ পর্যন্ত এই নিয়ম বহাল থাকবে। ইনশাআল্লাহ
-</marquee>
+</marquee> --}}
 <!-- Marque--> 
     <div class="container">
         {{-- welcome massage to visiter  --}}
