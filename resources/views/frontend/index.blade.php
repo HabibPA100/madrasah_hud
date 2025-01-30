@@ -11,26 +11,7 @@
  @include('frontend.layout.nav')
 </header>
 <main>
-    <div class="container">
-        {{-- welcome massage to visiter  --}}
-     <div class="container my-2" id="welcome">
-         <div class="card p-3 welcome welcomeAnimation">
-             <h3 class="text-center text-success"> আপনার উপর দয়াময়ের শান্তি বর্ষিত হোক </h3> 
-             <h2 class="text-center text-danger "> আমাদের ওয়েবসাইটে আপনাকে স্বাগতম </h2>
-         </div>
-     </div>
-     {{-- section about admission information start here --}}
- {{-- Admission Alan for Decembore  --}}
- <section id="goToPost">
-     <div class="container mt-4">
-         <a href="{{ route('show.post') }}" class="btn btn-warning position-relative">
-             New Updates
-             <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"> <i class="bi bi-chat-dots-fill"></i>
-             </span>
-           </a>
-     </div>
- </section>
- <!-- Marque-->  
+<!-- Marque-->  
  <marquee class="GeneratedMarquee" direction="left" scrollamount="15" behavior="scroll">
     সম্মানিত অভিভাবকবৃন্দ; আসছে আগামী নতুন বছর ২০২৫
     সাল উপলক্ষে পুরাতন ছাত্র-ছাত্রীদের অগ্রধিকার হিসেবে গত
@@ -50,7 +31,27 @@
     ডিসেম্বর মাসের ১ তারিখ থেকে
     ২০ তারিখ পর্যন্ত এই নিয়ম বহাল থাকবে। ইনশাআল্লাহ
 </marquee>
- <!-- Marque-->  
+<!-- Marque--> 
+    <div class="container">
+        {{-- welcome massage to visiter  --}}
+     <div class="container my-2" id="welcome">
+         <div class="card p-3 welcome welcomeAnimation">
+             <h3 class="text-center text-success"> আপনার উপর দয়াময়ের শান্তি বর্ষিত হোক </h3> 
+             <h2 class="text-center text-danger "> আমাদের ওয়েবসাইটে আপনাকে স্বাগতম </h2>
+         </div>
+     </div>
+     {{-- section about admission information start here --}}
+ {{-- Admission Alan for Decembore  --}}
+ <section id="goToPost">
+     <div class="container mt-4">
+         <a href="{{ route('show.post') }}" class="btn btn-warning position-relative">
+             New Updates
+             <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"> <i class="bi bi-chat-dots-fill"></i>
+             </span>
+           </a>
+     </div>
+ </section>
+ 
  {{-- Admission Alan for Decembore  --}}
  <section id="admissionInfo">
      <div class="container">
