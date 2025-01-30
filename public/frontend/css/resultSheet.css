@@ -1,19 +1,10 @@
 .resultYearsTextAnimation{-webkit-animation:resultYearsTextAnim 5s cubic-bezier(.55,.085,.68,.53) infinite both;animation:resultYearsTextAnim 5s cubic-bezier(.55,.085,.68,.53) infinite both}
 @-webkit-keyframes resultYearsTextAnim{0%{opacity:1;color: chartreuse;}50%{opacity:1;color: red;}100%{letter-spacing:-.5em;opacity:0}}@keyframes resultYearsTextAnim{0%{opacity:1;color: red;}50%{opacity:1;color: green;}100%{letter-spacing:-.5em;opacity:0}}
 
-.running_text_forever {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: scroll-text 50s linear infinite;
-    -webkit-animation: scroll-text 50s linear infinite;
-}
-
-@keyframes scroll-text {
-    from {
-        transform: translateX(100%);
+.GeneratedMarquee {
+    font-family:'Kalpurush';
+    font-size:1.5em;
+    line-height:1.5em;
+    color:#CC0000;
+    padding:0.5em;
     }
-    to {
-        transform: translateX(-100%);
-    }
-}

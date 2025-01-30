@@ -29,9 +29,7 @@
              </span>
            </a>
      </div>
-     <div class="container p-2 overflow-hidden">
-        <div>
-            <h4 class="running_text_forever p-2" style="font-family: SolaimanLipi, Kalpurush; color:rgb(255, 0, 43)">
+     <marquee class="GeneratedMarquee" direction="left" scrollamount="15" behavior="scroll">
                 সম্মানিত অভিভাবকবৃন্দ; আসছে আগামী নতুন বছর ২০২৫
                 সাল উপলক্ষে পুরাতন ছাত্র-ছাত্রীদের অগ্রধিকার হিসেবে গত
                 বছরের ন্যায় নতুন বছরের জন্য ডিসেম্বর মাসের ১ তারিখ থেকে
@@ -49,9 +47,7 @@
                 </strong> 
                 ডিসেম্বর মাসের ১ তারিখ থেকে
                 ২০ তারিখ পর্যন্ত এই নিয়ম বহাল থাকবে। ইনশাআল্লাহ
-            </h4>
-        </div>
-    </div>
+            </marquee>
  </section>  
  {{-- Admission Alan for Decembore  --}}
  <section id="admissionInfo">
