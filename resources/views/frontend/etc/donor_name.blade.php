@@ -25,6 +25,11 @@
                                 @endforeach
                                 <tr class="text-success fs-5">
                                     <td>Id</td>
+                                    <td>জনাব মাহমুদ হাসান আমেরিকান </td>
+                                    <td>আজীবন সদস্য</td>
+                                </tr>
+                                <tr class="text-success fs-5">
+                                    <td>Id</td>
                                     <td>জনাব লোকমান সাহেব</td>
                                     <td>অনির্দিষ্ট কাল</td>
                                 </tr>
