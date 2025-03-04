@@ -22,6 +22,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'phone',
         'email',
         'password',
+        'auth_id'
     ];
 //It is for UserPost Controller 
 public function UserPost()

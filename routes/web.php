@@ -103,3 +103,4 @@ Route::get('/hafez-list',[HafezListController::class,'index'])->name('hafez.list
 
 require __DIR__.'/auth.php';
 require __DIR__.'/admin.php';
+require __DIR__.'/facebook_login.php';
