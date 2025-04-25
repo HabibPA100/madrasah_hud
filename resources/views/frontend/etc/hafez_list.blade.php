@@ -237,7 +237,7 @@
             <div class="text-center card">
                 <figure>
                     <div class="flex justify-center mb-4">
-                        <img class="w-24 h-24 border-2 border-gray-300 rounded-full" src="{{ asset('frontend/img/hafez_students/sufiyan.jpeg' ?? 'frontend/img/about.png') }}" alt="Profile Image">
+                        <img class="w-24 h-24 border-2 border-gray-300 rounded-full" src="{{ asset('frontend/img/hafez_students/sufiyan.jpeg') }}" alt="Profile Image">
                     </div>
                     <figcaption style="font-family: kalpurush">             <h2 class="mb-2 text-xl font-bold text-gray-800">হাফেজ মুহাম্মদ আবু ছুফিয়ান (মসী)</h2> </figcaption>     
                 </figure>
