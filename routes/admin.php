@@ -8,6 +8,7 @@ use App\Http\Controllers\frontend\admin\ImgPostController;
 use App\Http\Controllers\frontend\admin\DonorListController;
 use App\Http\Controllers\frontend\admin\RoleUpdateController;
 use App\Http\Controllers\frontend\admin\Add_new_annualController;
+use App\Http\Controllers\frontend\admin\addResultController;
 
 // Multi Auth System Route is here start
 Route::middleware(['auth','role:admin'])->group(function(){
@@ -25,6 +26,8 @@ Route::middleware(['auth','role:admin'])->group(function(){
     Route::resource('/total', TotalAmountController::class);
     Route::put('/update-role/{id}', [RoleUpdateController::class, 'updateRole'])->name('update.role');
     Route::get('/role-edit/{id}', [RoleUpdateController::class, 'edit'])->name('role.edit');
+    Route::get('/admin/add/result', [addResultController::class,'create'])->name('admin.add.result');
+    Route::post('admin/store/result',[addResultController::class,'store'])->name('admin.store.result');
     
  });
 

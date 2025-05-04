@@ -17,7 +17,7 @@
     <div class="container bg-success w-100 p-2 mt-3">
         <h3 class="text-center text-white">Welcome to Admin Dashboard</h3>
     </div>
-    <h4 class="text-center text-danger">শিক্ষার্থীদের ভর্তি ফরম</h4>
+    <h4 class="text-center text-danger p-4">শিক্ষার্থীদের ভর্তি ফরম</h4>
 </section>
     <section>
         <div class="container mt-3">

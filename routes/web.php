@@ -36,7 +36,7 @@ use App\Http\Controllers\frontend\HafezListController;
 
 Route::get('/',[homeController::class,'index']);
 
-Route::middleware(['auth','role:user', 'verified'])->group(function(){
+Route::middleware(['auth','role:user'])->group(function(){
     Route::get('dashboard',[UserController::class,'index'])->name('dashboard');
     Route::resource('/user-post', UserPostController::class);
  });

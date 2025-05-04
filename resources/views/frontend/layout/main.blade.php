@@ -2,6 +2,7 @@
 <html lang="bn">
 <head>
     @include('frontend.layout.meta_tag')
+    <title>@yield('title','Madrasah Hedayatul Ummah Dhaka')</title>
 </head>
 <body>
     <header>

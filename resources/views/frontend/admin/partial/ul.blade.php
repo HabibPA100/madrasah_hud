@@ -6,6 +6,9 @@
         <a class="nav-link text-white bnt bg-primary" href="{{ route('admin-image-post.index') }}"><i class="fa-solid fa-pen-to-square"></i> নতুন পোষ্ট</a>
     </li>
     <li class="nav-item">
+        <a class="nav-link text-primary btn bg-white" href="{{ route('admin.add.result') }}"> রিজাল্ট যুক্ত করুন </a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link text-white bnt bg-danger" href="{{ route('admin.user') }}"> <i class="fa-solid fa-users"></i> ব্যবহারকারীর তালিকা</a>
     </li>
     <li class="nav-item">
